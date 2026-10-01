@@ -89,17 +89,6 @@ PingDrop is free. The Android app shows one small banner ad, which a one-time
 
 Both devices should show **Wi-Fi + BLE** within a few seconds.
 
-> [!TIP]
-> **Verify your download (optional).** Each Mac release ships with a
-> `PingDrop.dmg.sha256` file. Put both in the same folder and run:
->
-> ```sh
-> shasum -a 256 -c PingDrop.dmg.sha256
-> ```
->
-> You should see `PingDrop.dmg: OK`. The Mac app is signed with an Apple Developer ID
-> and notarized by Apple, so it opens without any security warnings.
-
 ## Updating
 
 - **Android** — updates arrive through Google Play like any other app.
@@ -155,6 +144,15 @@ One phone per Mac. **Pair New Phone** replaces the current one.
 
 Found a bug or have an idea? [Open an issue](https://github.com/Neeraj-Nani/Pingdrop/issues)
 or email **pingdrop.support@gmail.com**.
+
+PingDrop is free. If it saves you a few trips to your phone, you can support its
+development at [Buy Me a Coffee](https://buymeacoffee.com/neerajreddy).
+
+<div align="center">
+
+<a href="https://buymeacoffee.com/neerajreddy"><img src="https://img.shields.io/badge/support-Buy_me_a_coffee-FFDD00?style=flat&logo=buymeacoffee&logoColor=white" alt="Buy me a coffee"></a>
+
+</div>
 
 ---
 
