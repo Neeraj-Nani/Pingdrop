@@ -41,7 +41,7 @@ your desktop. You choose which apps are allowed, one by one. Dismiss a notificat
 on the Mac and it clears on the phone too.
 
 **Clipboard, both ways.** Copy on the Mac, paste on the phone. Copy on the phone and
-send it over from the Quick Settings tile or the share sheet. Each direction has its
+send it over with one tap — Push clipboard to Mac, the Quick Settings tile, or the share sheet. Each direction has its
 own switch.
 
 **Files, both ways.** Drag files onto the PingDrop icon in your menu bar to send them
@@ -91,7 +91,7 @@ your Mac.
 | **Reply from your Mac** | Answer a message straight from its notification on the Mac. |
 | **Notification rules** | Quiet hours, and Normal, Quiet or Priority for each app — Priority always gets through. |
 | **Calendar reminders** | Upcoming events from your Mac's calendars, as reminders on your phone. |
-| **Clipboard images** | Copy an image on one device, paste it on the other. |
+| **Clipboard images** | Copy an image on your Mac, paste it on your phone. Send one back with Push clipboard to Mac. |
 | **Custom battery alerts** | Up to 10 alerts each — your phone's battery on the Mac, your Mac's on the phone. |
 | **Files your way** | Accept transfers automatically and choose where received files are saved, on both sides. |
 
