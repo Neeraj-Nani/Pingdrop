@@ -23,7 +23,9 @@ Notifications, clipboard and files — over your own Wi-Fi. No account. No cloud
 
 <br>
 
-<img src="screenshots/mac-panel.jpg" width="720" alt="PingDrop in the Mac menu bar, connected to a phone over Wi-Fi and Bluetooth">
+<img src="screenshots/demo.gif" width="900" alt="PingDrop demo: a notification from the phone pops up on the Mac, a reply sent from the Mac, a notification cleared on both, copy and paste from Mac to phone, a file sent to the phone, and a low-battery alert">
+
+<sub>▶ <a href="screenshots/demo.mp4">Watch it in HD</a></sub>
 
 </div>
 
@@ -61,10 +63,10 @@ tells you, and the Android app can install its own updates from Google Play.
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/android-1.jpg" width="200" alt="Home screen, connected to a Mac">
-  <img src="screenshots/android-2.jpg" width="200" alt="Choosing which apps sync notifications">
-  <img src="screenshots/android-3.jpg" width="200" alt="Clipboard sync switches for each direction">
-  <img src="screenshots/android-4.jpg" width="200" alt="Settings in the light theme">
+  <img src="screenshots/android-home.jpg" height="440" alt="Home tab: Wi-Fi and Bluetooth active, the Mac's battery charging at 76%">
+  <img src="screenshots/android-sync.jpg" height="440" alt="Sync tab: notification sync, 2-way clearing and clipboard switches">
+  <img src="screenshots/android-settings.jpg" height="440" alt="Settings tab: theme, haptics, updates and links">
+  <img src="screenshots/mac-menu.jpg" height="440" alt="PingDrop in the Mac menu bar: Wi-Fi and Bluetooth active, the phone at 50%">
 </p>
 
 ## Download
