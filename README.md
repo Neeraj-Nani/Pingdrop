@@ -11,7 +11,7 @@ Notifications, clipboard and files — over your own Wi-Fi. No account. No cloud
 <a href="https://play.google.com/store/apps/details?id=com.app.pingdrop"><img src="https://playbadges.pavi2410.me/badge/version?id=com.app.pingdrop" alt="Play Store version"></a>
 <img src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 7.0+">
 <img src="https://img.shields.io/badge/macOS-14%2B-000000?logo=apple&logoColor=white" alt="macOS 14+">
-<a href="https://github.com/Neeraj-Nani/Pingdrop/stargazers"><img src="https://img.shields.io/github/stars/Neeraj-Nani/Pingdrop?style=flat&logo=github" alt="GitHub stars"></a>
+<a href="https://github.com/Neerajreddyapi/Pingdrop/stargazers"><img src="https://img.shields.io/github/stars/Neerajreddyapi/Pingdrop?style=flat&logo=github" alt="GitHub stars"></a>
 
 <br><br>
 
@@ -19,7 +19,7 @@ Notifications, clipboard and files — over your own Wi-Fi. No account. No cloud
 &nbsp;
 <img src="https://img.shields.io/badge/macOS-Coming_soon-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Mac app coming soon" height="40">
 
-[Download](#download) · [Getting started](#getting-started) · [Privacy](#privacy) · [Troubleshooting](#troubleshooting) · [Report a bug](https://github.com/Neeraj-Nani/Pingdrop/issues)
+[Download](#download) · [Getting started](#getting-started) · [Privacy](#privacy) · [Troubleshooting](#troubleshooting) · [Report a bug](https://github.com/Neerajreddyapi/Pingdrop/issues)
 
 <br>
 
@@ -29,7 +29,7 @@ Notifications, clipboard and files — over your own Wi-Fi. No account. No cloud
 
 > [!NOTE]
 > The Android app is live on Google Play. The Mac app is in final review and will be
-> published here under [Releases](https://github.com/Neeraj-Nani/Pingdrop/releases) —
+> published here under [Releases](https://github.com/Neerajreddyapi/Pingdrop/releases) —
 > click **Watch → Custom → Releases** at the top of this page to get notified.
 
 ---
@@ -69,7 +69,7 @@ your phone.
 | Platform | Get it | Version |
 |---|---|---|
 | **Android** | [Google Play](https://play.google.com/store/apps/details?id=com.app.pingdrop) | <img src="https://playbadges.pavi2410.me/badge/version?id=com.app.pingdrop" alt="Play Store version"> |
-| **Mac** | Coming soon to [Releases](https://github.com/Neeraj-Nani/Pingdrop/releases) | — |
+| **Mac** | Coming soon to [Releases](https://github.com/Neerajreddyapi/Pingdrop/releases) | — |
 
 PingDrop is free. The Android app shows one small banner ad, which a one-time
 **PingDrop Pro** purchase removes.
@@ -79,7 +79,7 @@ PingDrop is free. The Android app shows one small banner ad, which a one-time
 1. **On your phone** — install PingDrop from
    [Google Play](https://play.google.com/store/apps/details?id=com.app.pingdrop).
 2. **On your Mac** — download `PingDrop.dmg` from
-   [Releases](https://github.com/Neeraj-Nani/Pingdrop/releases), open it, and drag
+   [Releases](https://github.com/Neerajreddyapi/Pingdrop/releases), open it, and drag
    PingDrop into **Applications**.
 3. Open PingDrop on the Mac. It lives in the **menu bar** at the top right, not in the
    Dock.
@@ -93,7 +93,7 @@ Both devices should show **Wi-Fi + BLE** within a few seconds.
 
 - **Android** — updates arrive through Google Play like any other app.
 - **Mac** — download the newest `PingDrop.dmg` from
-  [Releases](https://github.com/Neeraj-Nani/Pingdrop/releases) and drag it into
+  [Releases](https://github.com/Neerajreddyapi/Pingdrop/releases) and drag it into
   **Applications**, replacing the old copy. Your pairing is kept.
 
 ## Requirements
@@ -120,7 +120,7 @@ PingDrop is built so your data never has to leave your own devices.
   network. A one-time **PingDrop Pro** purchase removes the ad.
 - Clipboard items your password manager marks as sensitive are never sent.
 
-Full privacy policy: **https://neeraj-nani.github.io/Pingdrop/privacy-policy.html**
+Full privacy policy: **https://neerajreddyapi.github.io/Pingdrop/privacy-policy.html**
 
 ## Troubleshooting
 
@@ -142,7 +142,7 @@ One phone per Mac. **Pair New Phone** replaces the current one.
 
 ## Support
 
-Found a bug or have an idea? [Open an issue](https://github.com/Neeraj-Nani/Pingdrop/issues)
+Found a bug or have an idea? [Open an issue](https://github.com/Neerajreddyapi/Pingdrop/issues)
 or email **pingdrop.support@gmail.com**.
 
 PingDrop is free. If it saves you a few trips to your phone, you can support its
