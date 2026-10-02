@@ -19,7 +19,7 @@ Notifications, clipboard and files — over your own Wi-Fi. No account. No cloud
 &nbsp;
 <img src="https://img.shields.io/badge/macOS-Coming_soon-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Mac app coming soon" height="40">
 
-[Download](#download) · [Getting started](#getting-started) · [Privacy](#privacy) · [Troubleshooting](#troubleshooting) · [Report a bug](https://github.com/Neerajreddyapi/Pingdrop/issues)
+[Download](#download) · [PingDrop Pro](#pingdrop-pro) · [Getting started](#getting-started) · [Privacy](#privacy) · [Troubleshooting](#troubleshooting) · [Report a bug](https://github.com/Neerajreddyapi/Pingdrop/issues)
 
 <br>
 
@@ -55,6 +55,9 @@ the phone's notification shade.
 when they aren't. Reconnects on its own when you get home, wake your Mac or unlock
 your phone.
 
+**Keeps itself current.** Each app notices when the other one is out of date and
+tells you, and the Android app can install its own updates from Google Play.
+
 ## Screenshots
 
 <p align="center">
@@ -72,7 +75,25 @@ your phone.
 | **Mac** | Coming soon to [Releases](https://github.com/Neerajreddyapi/Pingdrop/releases) | — |
 
 PingDrop is free. The Android app shows one small banner ad, which a one-time
-**PingDrop Pro** purchase removes.
+**[PingDrop Pro](#pingdrop-pro)** purchase removes — along with unlocking everything below.
+
+## PingDrop Pro
+
+> [!NOTE]
+> PingDrop Pro's new features arrive with **PingDrop 1.3**.
+
+One purchase in the Android app — no subscription — unlocks Pro on your phone **and**
+your Mac.
+
+| | |
+|---|---|
+| **No ads** | The banner in the Android app is gone for good. |
+| **Reply from your Mac** | Answer a message straight from its notification on the Mac. |
+| **Notification rules** | Quiet hours, and Normal, Quiet or Priority for each app — Priority always gets through. |
+| **Calendar reminders** | Upcoming events from your Mac's calendars, as reminders on your phone. |
+| **Clipboard images** | Copy an image on one device, paste it on the other. |
+| **Custom battery alerts** | Up to 10 alerts each — your phone's battery on the Mac, your Mac's on the phone. |
+| **Files your way** | Accept transfers automatically and choose where received files are saved, on both sides. |
 
 ## Getting started
 
@@ -91,10 +112,12 @@ Both devices should show **Wi-Fi + BLE** within a few seconds.
 
 ## Updating
 
-- **Android** — updates arrive through Google Play like any other app.
+- **Android** — updates arrive through Google Play, and PingDrop offers to install them
+  itself when one is ready.
 - **Mac** — download the newest `PingDrop.dmg` from
   [Releases](https://github.com/Neerajreddyapi/Pingdrop/releases) and drag it into
-  **Applications**, replacing the old copy. Your pairing is kept.
+  **Applications**, replacing the old copy. Your pairing is kept. PingDrop on your phone
+  lets you know when a newer Mac version is out.
 
 ## Requirements
 
@@ -119,6 +142,8 @@ PingDrop is built so your data never has to leave your own devices.
   internet. PingDrop never passes your notifications, clipboard or files to the ad
   network. A one-time **PingDrop Pro** purchase removes the ad.
 - Clipboard items your password manager marks as sensitive are never sent.
+- **Calendar reminders (Pro) are off until you turn them on** and allow calendar access
+  on your Mac. Events are read on the Mac and sent, encrypted, only to your paired phone.
 
 Full privacy policy: **https://neerajreddyapi.github.io/Pingdrop/privacy-policy.html**
 
