@@ -63,10 +63,9 @@ tells you, and the Android app can install its own updates from Google Play.
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/android-home.jpg" height="440" alt="Home tab: Wi-Fi and Bluetooth active, the Mac's battery charging at 76%">
-  <img src="screenshots/android-sync.jpg" height="440" alt="Sync tab: notification sync, 2-way clearing and clipboard switches">
-  <img src="screenshots/android-settings.jpg" height="440" alt="Settings tab: theme, haptics, updates and links">
-  <img src="screenshots/mac-menu.jpg" height="440" alt="PingDrop in the Mac menu bar: Wi-Fi and Bluetooth active, the phone at 50%">
+  <img src="screenshots/screens.png" width="900" alt="PingDrop on Android — the Home, Sync and Settings tabs — and the PingDrop panel in the Mac menu bar">
+  <br>
+  <sub><b>Home</b> · <b>Sync</b> · <b>Settings</b> on Android &nbsp;—&nbsp; the <b>menu bar panel</b> on the Mac</sub>
 </p>
 
 ## Download
