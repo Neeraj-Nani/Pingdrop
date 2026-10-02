@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PingDrop — Privacy Policy</title>
+<meta name="description" content="How PingDrop for Android and Mac handles your data: everything stays on your own two devices.">
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         color: #1a1a1a; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #0f0f10; } }
+  h1 { font-size: 1.9rem; margin: 0 0 .25rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.25rem; margin: 2.4rem 0 .6rem; letter-spacing: -.01em; }
+  h3 { font-size: 1.02rem; margin: 1.6rem 0 .4rem; }
+  p { margin: .55rem 0; }
+  .sub { color: #6b7280; margin: 0 0 2rem; }
+  .pro { display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+         color: #a16207; background: rgba(234,179,8,.16); border-radius: 5px; padding: .05rem .4rem;
+         vertical-align: .15em; margin-left: .35rem; }
+  hr { border: 0; border-top: 1px solid #e5e7eb; margin: 2.2rem 0; }
+  @media (prefers-color-scheme: dark) { hr { border-top-color: #2a2a2e; } .sub { color: #9aa0aa; } .pro { color: #facc15; } }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; display: block; overflow-x: auto; }
+  th, td { border: 1px solid #e5e7eb; padding: .5rem .65rem; text-align: left; vertical-align: top; font-size: .93rem; }
+  @media (prefers-color-scheme: dark) { th, td { border-color: #2a2a2e; } }
+  th { background: rgba(127,127,127,.09); font-weight: 600; }
+  code { font: .88em ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(127,127,127,.14); padding: .12em .38em; border-radius: 4px; }
+  a { color: #2563eb; } @media (prefers-color-scheme: dark) { a { color: #7aa7ff; } }
+  li { margin: .3rem 0; }
+  nav ol { columns: 2; column-gap: 2rem; padding-left: 1.2rem; font-size: .95rem; }
+  @media (max-width: 34rem) { nav ol { columns: 1; } }
+</style>
+</head>
+<body>
+
+<h1>PingDrop — Privacy Policy</h1>
+<p class="sub">Effective 2 October 2026 · Applies to PingDrop for Android and PingDrop for Mac ·
+Contact <a href="mailto:pingdrop.support@gmail.com">pingdrop.support@gmail.com</a></p>
+<p>PingDrop is developed by Neeraj Reddy. It connects your Android phone to your Mac so your
+notifications, clipboard and files can move between them.</p>
+
+<nav>
+<ol>
+  <li><a href="#short">The short version</a></li>
+  <li><a href="#phone">What the phone app reads</a></li>
+  <li><a href="#mac">What the Mac app reads</a></li>
+  <li><a href="#pro">PingDrop Pro features</a></li>
+  <li><a href="#stored">What is stored on your devices</a></li>
+  <li><a href="#security">How it is protected</a></li>
+  <li><a href="#ads">Advertising (free version)</a></li>
+  <li><a href="#google">Purchases and updates</a></li>
+  <li><a href="#not">What PingDrop does not do</a></li>
+  <li><a href="#permissions">Permissions</a></li>
+  <li><a href="#deletion">Deleting your data</a></li>
+  <li><a href="#contact">Changes and contact</a></li>
+</ol>
+</nav>
+
+<hr>
+
+<h2 id="short">1. The short version</h2>
+<p>PingDrop has <strong>no servers</strong>. There is no account to create, nothing to log in to, and
+no backend that your data passes through. Everything PingDrop reads is encrypted on the device
+that reads it and sent <strong>directly to your other device</strong>, over your own Wi-Fi network
+or a direct Bluetooth link. The developer cannot see any of it, because none of it is ever sent
+anywhere the developer controls.</p>
+<p>The exceptions are the services of Google that the Android app uses — advertising in the free
+version, Google Play Billing for purchases, and Google Play for update checks — each described
+below. The Mac app makes no internet connections at all.</p>
+
+<hr>
+
+<h2 id="phone">2. What the phone app reads, and where it goes</h2>
+
+<h3>Notification content</h3>
+<p>With your permission (granted on Android's Notification Access screen), PingDrop reads
+notifications posted on your phone: the app name, title, text, and Android's internal
+notification key.</p>
+<p><strong>Where it goes:</strong> encrypted and sent directly to your paired Mac, where it is shown as
+a normal macOS notification. When a notification is removed on one device it is removed on the
+other, if you have 2-way sync turned on — only the notification's key is sent for that.</p>
+<p><strong>Where it does not go:</strong> anywhere else. It is not sent to any server, not written to any
+log in release builds, and not kept by the app once delivered. You choose which apps are mirrored,
+and notification sync can be switched off entirely.</p>
+
+<h3>Clipboard content</h3>
+<p><strong>Mac → phone</strong> is automatic when enabled: text you copy on your Mac is encrypted and
+placed on your phone's clipboard. <strong>Phone → Mac</strong> only ever happens when you ask for it —
+the Quick Settings tile, the share sheet, or the button in the app. Android does not let apps read
+the clipboard in the background, and PingDrop does not try to.</p>
+<p>PingDrop never sends clipboard content marked as sensitive. On the phone that is content flagged
+<code>EXTRA_IS_SENSITIVE</code>; on the Mac it is content that password managers mark as concealed or
+transient. In practice, passwords copied from a password manager are not synced, by design.</p>
+<p><strong>Where it goes:</strong> encrypted, directly to your paired device. Nowhere else.</p>
+
+<h3>Files you choose to send</h3>
+<p>Only files you pick — in the app's file picker, from the Android share sheet, or by dropping
+them onto PingDrop on your Mac. PingDrop never scans your storage and never sends anything you did
+not choose.</p>
+<p><strong>Where it goes:</strong> encrypted, over a direct connection to your paired device on your
+local network. Received files are saved to your Downloads folder, or to a folder you choose
+(PingDrop Pro).</p>
+
+<h3>Your installed app list</h3>
+<p>To show the right icon next to a mirrored notification, PingDrop sends your paired Mac the name
+and icon of apps that post notifications, and each app's last-update time so icons refresh when an
+app updates. The icons are cached on your Mac. This list never leaves your local network.</p>
+
+<h3>Battery level and device name</h3>
+<p>Your phone's charge level, charging state and device name (manufacturer and model) are sent to
+your paired Mac so it can show them; the Mac sends its own back. Local only.</p>
+
+<h3>A random device identifier</h3>
+<p>The first time PingDrop runs, the phone app creates a random identifier for itself. It is sent,
+encrypted, only to your paired Mac, so the Mac can tell your phone apart if a second phone scans
+the same pairing code — a pairing belongs to the one phone that claimed it. It is not linked to
+you, your Google account or any hardware identifier, and it is never sent anywhere else.</p>
+
+<h3>App versions</h3>
+<p>The phone and Mac apps tell each other which version they are, so either can tell you when the
+other needs an update.</p>
+
+<hr>
+
+<h2 id="mac">3. What the Mac app reads, and where it goes</h2>
+<p>The Mac app makes <strong>no internet connections</strong>. Everything below stays on your Mac, or
+goes encrypted only to your paired phone.</p>
+<ul>
+  <li><strong>Your clipboard</strong> — only when Mac → phone clipboard sync is on, to send what you
+  copy to your phone. Concealed and transient content (passwords) is skipped.</li>
+  <li><strong>Your Mac's battery level</strong> — sent to your phone so it can show it.</li>
+  <li><strong>Your calendars</strong> — only if you turn on calendar reminders (PingDrop Pro) and allow
+  access when macOS asks. See below.</li>
+  <li><strong>Files you drop onto PingDrop</strong>, and files received from your phone, saved in
+  Downloads or a folder you choose.</li>
+  <li><strong>Crash reports</strong> — if PingDrop crashes or freezes, macOS hands it a diagnostic
+  report (stack traces and system details, never your messages, clipboard or files). Reports are
+  kept on your Mac and <strong>never sent automatically</strong>. You can open them from PingDrop's
+  Preferences to attach to an email if you want to report a problem, or delete them there.</li>
+</ul>
+
+<hr>
+
+<h2 id="pro">4. PingDrop Pro features</h2>
+<p>These are only active for PingDrop Pro users, and most can be switched off individually. None
+of them involves a server: like everything else, the data moves only between your two devices.</p>
+
+<h3>Reply from your Mac <span class="pro">PRO</span></h3>
+<p>For notifications from apps that support replying from the notification (such as WhatsApp,
+Telegram and Messages), the Mac shows a Reply box. The text you type is encrypted, sent to your
+phone, and handed to that app through Android's standard reply mechanism — the same one
+smartwatches use. PingDrop does not keep a copy of it.</p>
+
+<h3>Images on the clipboard <span class="pro">PRO</span></h3>
+<p>Copied images and screenshots can move between your devices like text, over Wi-Fi only. They
+are compressed for the transfer and the most recent one is kept in PingDrop's private storage on
+the phone so it can be pasted. Images are not added to the clipboard history.</p>
+
+<h3>Calendar reminders <span class="pro">PRO</span></h3>
+<p>If you turn this on in PingDrop's Preferences on your Mac and allow calendar access when macOS
+asks, the Mac reads your upcoming events and sends each one to your phone shortly before it starts:
+its title, start and end time, location and calendar name. All-day events are skipped. Your
+calendar is read only on your Mac and sent, encrypted, only to your paired phone. You can turn it
+off on either device, and withdraw calendar access at any time in macOS System Settings → Privacy
+&amp; Security → Calendars.</p>
+
+<h3>Notification rules, battery alerts, file settings <span class="pro">PRO</span></h3>
+<p>Quiet hours, which apps are quiet or priority, battery alert levels, auto-accepting files and
+the folder files are saved to are settings stored on your own devices. A folder you choose is
+accessed only through the permission you grant in the system folder picker.</p>
+
+<hr>
+
+<h2 id="stored">5. What is stored on your devices</h2>
+<table>
+<tr><th>What</th><th>Where</th><th>How long</th></tr>
+<tr><td>Pairing key</td><td>Phone: encrypted by the Android Keystore. Mac: PingDrop's private app storage.</td><td>Until you unpair or re-pair</td></tr>
+<tr><td>Clipboard history (the last 25 clips)</td><td>Phone and Mac, each in PingDrop's private storage</td><td>Until replaced by newer clips, or you clear it</td></tr>
+<tr><td>Transfer history (the last 100 transfers: file name, size, direction, outcome, time)</td><td>Phone and Mac, each in PingDrop's private storage</td><td>Until replaced, or you clear it</td></tr>
+<tr><td>App icons</td><td>Mac, in PingDrop's cache</td><td>Refreshed when apps update</td></tr>
+<tr><td>Crash reports</td><td>Mac, in PingDrop's private storage (newest 20)</td><td>Until you delete them</td></tr>
+<tr><td>Settings and Pro preferences</td><td>Each device</td><td>Until you change them or uninstall</td></tr>
+</table>
+<p><strong>Backups.</strong> On Android, the pairing key, clipboard history and transfer history are
+<strong>excluded from Google cloud backup and from device-to-device transfer</strong>, so they cannot
+follow you to another phone without your knowledge. On the Mac, PingDrop's data lives in its app
+container, which Time Machine backs up like the rest of your Mac.</p>
+
+<hr>
+
+<h2 id="security">6. How it is protected</h2>
+<ul>
+  <li>Everything sent between your devices is encrypted with <strong>AES-256-GCM</strong>, using a key
+  created on your Mac and shared only by scanning its QR code with your phone.</li>
+  <li>Every message carries a fresh random value and a timestamp, and old or repeated messages are
+  refused, so recorded traffic cannot be played back later.</li>
+  <li>A pairing belongs to one phone. A second phone that scans the same code is turned away.</li>
+  <li>Received file names are sanitised so they can only ever be saved into the destination
+  folder.</li>
+</ul>
+
+<hr>
+
+<h2 id="ads">7. Advertising (free version of the Android app only)</h2>
+<p>The free version of the Android app shows banner advertisements served by
+<strong>Google AdMob</strong>. To serve ads, the Google Mobile Ads SDK collects information including
+your device's <strong>advertising ID</strong>, device and network information, and IP address. This
+data is collected by Google, not by PingDrop's developer, and is governed by Google's policies:</p>
+<ul>
+  <li>Google Privacy Policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  <li>How Google uses information from apps that use its services:
+  <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></li>
+</ul>
+<p>You can reset or delete your advertising ID at any time in <strong>Settings → Google → Ads</strong>
+(or <strong>Settings → Privacy → Ads</strong>) on your phone.</p>
+<p><strong>PingDrop Pro removes advertising entirely.</strong> When Pro is active, no ad is loaded and no
+ad request is made. The ads never receive your notifications, clipboard or files.</p>
+
+<hr>
+
+<h2 id="google">8. Purchases and updates</h2>
+<p><strong>Purchases.</strong> PingDrop Pro is a one-time purchase handled entirely by
+<strong>Google Play Billing</strong>. The developer never sees or stores your payment details. Your
+purchase is Google Play's record, which is why it restores automatically on a new device or after a
+reinstall, with no account and no login.</p>
+<p><strong>Update checks.</strong> The Android app asks Google Play whether a newer version is available,
+using Google Play's in-app update service. This exchange is between your phone and Google Play; no
+information about you is sent to the developer.</p>
+<p><strong>Links.</strong> Links in the apps — Buy me a coffee, the GitHub page, the Play Store listing,
+this policy — open in your browser or the Play Store. Those sites have their own privacy policies.</p>
+
+<hr>
+
+<h2 id="not">9. What PingDrop does not do</h2>
+<ul>
+  <li>No analytics, tracking or third-party crash-reporting SDK</li>
+  <li>No developer-operated server; nothing is transmitted to the developer</li>
+  <li>No account, sign-in, email collection or user profile</li>
+  <li>No selling or sharing of personal data with third parties, other than the advertising
+  described above</li>
+  <li>No background reading of the phone's clipboard</li>
+  <li>No scanning of your files or storage</li>
+  <li>No location tracking (see the Bluetooth note below)</li>
+</ul>
+
+<hr>
+
+<h2 id="permissions">10. Permissions, and why each one exists</h2>
+
+<h3>Android app</h3>
+<table>
+<tr><th>Permission</th><th>Why</th></tr>
+<tr><td>Notification access</td><td>To mirror your notifications to your Mac, and to reply to them (Pro). The core feature.</td></tr>
+<tr><td>Bluetooth (scan, connect, advertise)</td><td>To find and connect to your Mac when Wi-Fi is unavailable.</td></tr>
+<tr><td>Location (approximate &amp; precise)</td><td><strong>Required by Android 11 and below for any Bluetooth scan.</strong> PingDrop never requests, reads, stores or sends your location. On Android 12 and later it is not requested at all — the Bluetooth scan is flagged <code>neverForLocation</code>.</td></tr>
+<tr><td>Internet, network and Wi-Fi state, Wi-Fi multicast</td><td>To talk to your Mac on your local network and find it there. PingDrop's own traffic never leaves your network; the only internet requests are made by Google's ads, billing and update services.</td></tr>
+<tr><td>Foreground service (connected device)</td><td>To keep the link to your Mac while the app is in the background.</td></tr>
+<tr><td>Post notifications</td><td>For the status notification, transfer progress, and Pro alerts and reminders.</td></tr>
+<tr><td>Camera</td><td>To scan the pairing QR code. Nothing is recorded or sent.</td></tr>
+<tr><td>Storage (Android 9 and below only)</td><td>To save received files. Newer Android versions need no storage permission: files are chosen in the system picker and saved through Android's Downloads, or a folder you pick.</td></tr>
+<tr><td>Advertising ID</td><td>Used by Google AdMob in the free version.</td></tr>
+<tr><td>Ignore battery optimisations</td><td>Optional. Some manufacturers stop background connections aggressively; this keeps the link alive.</td></tr>
+<tr><td>Billing</td><td>For the PingDrop Pro purchase.</td></tr>
+</table>
+
+<h3>Mac app</h3>
+<table>
+<tr><th>Permission</th><th>Why</th></tr>
+<tr><td>Bluetooth</td><td>To connect to your phone when Wi-Fi is unavailable.</td></tr>
+<tr><td>Local network</td><td>To talk to your phone on your Wi-Fi network.</td></tr>
+<tr><td>Notifications</td><td>To show your phone's notifications on your Mac.</td></tr>
+<tr><td>Downloads folder</td><td>To save the files you receive.</td></tr>
+<tr><td>Folders you choose</td><td>Only folders you pick yourself — to send files, or as a save location (Pro).</td></tr>
+<tr><td>Calendars (optional, Pro)</td><td>Only if you turn on calendar reminders. See section 4.</td></tr>
+<tr><td>Open at login (optional)</td><td>So your phone can connect after you restart your Mac. Asked once; change it in Preferences.</td></tr>
+</table>
+
+<hr>
+
+<h2 id="deletion">11. Deleting your data</h2>
+<p>All PingDrop data lives on your own devices, so you are in control of all of it:</p>
+<ul>
+  <li><strong>Unpair:</strong> Disconnect in the phone app, or Pair New Phone on the Mac, deletes the
+  pairing key and stops all syncing.</li>
+  <li><strong>Clear history:</strong> the clipboard and transfer history screens on both devices have a
+  clear action.</li>
+  <li><strong>Crash reports:</strong> PingDrop's Preferences on the Mac → Diagnostics → Delete.</li>
+  <li><strong>Calendar access:</strong> turn calendar reminders off, or withdraw access in macOS System
+  Settings → Privacy &amp; Security → Calendars.</li>
+  <li><strong>Remove everything:</strong> uninstalling PingDrop deletes all of its data from your phone.
+  On the Mac, delete the app; its data is removed with its app container.</li>
+</ul>
+<p>There is no server-side data to request the deletion of, because there is no server.</p>
+
+<hr>
+
+<h2 id="contact">12. Changes and contact</h2>
+<p>If this policy changes in a way that matters, the effective date at the top will be updated, and
+the change will be described here. Continuing to use PingDrop after a change means you accept the
+revised policy.</p>
+<p>Questions about this policy or about how PingDrop handles your data:
+<a href="mailto:pingdrop.support@gmail.com">pingdrop.support@gmail.com</a></p>
+
+</body>
+</html>

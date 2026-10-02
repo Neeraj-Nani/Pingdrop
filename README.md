@@ -120,7 +120,7 @@ PingDrop is built so your data never has to leave your own devices.
   network. A one-time **PingDrop Pro** purchase removes the ad.
 - Clipboard items your password manager marks as sensitive are never sent.
 
-Full privacy policy: **https://neeraj-nani.github.io/Pingdrop/**
+Full privacy policy: **https://neeraj-nani.github.io/Pingdrop/privacy-policy.html**
 
 ## Troubleshooting
 
