@@ -7,11 +7,11 @@
 **Your Android phone, on your Mac.**<br>
 Notifications, clipboard and files — over your own Wi-Fi. No account. No cloud.
 
-<a href="https://play.google.com/store/apps/details?id=com.app.pingdrop"><img src="https://playbadges.pavi2410.me/badge/downloads?id=com.app.pingdrop" alt="Play Store downloads"></a>
-<a href="https://play.google.com/store/apps/details?id=com.app.pingdrop"><img src="https://playbadges.pavi2410.me/badge/version?id=com.app.pingdrop" alt="Play Store version"></a>
+<a href="https://play.google.com/store/apps/details?id=com.app.pingdrop"><img src="https://getpingdrop.vercel.app/api/badge?kind=downloads" alt="Play Store downloads"></a>
+<a href="https://play.google.com/store/apps/details?id=com.app.pingdrop"><img src="https://getpingdrop.vercel.app/api/badge?kind=version" alt="Play Store version"></a>
 <img src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 7.0+">
 <img src="https://img.shields.io/badge/macOS-14%2B-000000?logo=apple&logoColor=white" alt="macOS 14+">
-<a href="https://github.com/Neerajreddyapi/Pingdrop/stargazers"><img src="https://img.shields.io/github/stars/Neerajreddyapi/Pingdrop?style=flat&logo=github" alt="GitHub stars"></a>
+<a href="https://github.com/Neerajreddyapi/Pingdrop/stargazers"><img src="https://getpingdrop.vercel.app/api/badge?kind=stars" alt="GitHub stars"></a>
 
 <br><br>
 
@@ -83,7 +83,7 @@ tells you, and the Android app can install its own updates from Google Play.
 
 | Platform | Get it | Version |
 |---|---|---|
-| **Android** | [Google Play](https://play.google.com/store/apps/details?id=com.app.pingdrop) | <img src="https://playbadges.pavi2410.me/badge/version?id=com.app.pingdrop" alt="Play Store version"> |
+| **Android** | [Google Play](https://play.google.com/store/apps/details?id=com.app.pingdrop) | <img src="https://getpingdrop.vercel.app/api/badge?kind=version" alt="Play Store version"> |
 | **Mac** | Coming soon to [Releases](https://github.com/Neerajreddyapi/Pingdrop/releases) | — |
 
 PingDrop is free. The Android app shows one small banner ad, which a one-time
