@@ -32,9 +32,18 @@ Notifications, clipboard and files — over your own Wi-Fi. No account. No cloud
 </div>
 
 > [!NOTE]
-> The Android app is live on Google Play. The Mac app is in final review and will be
+> **PingDrop 1.3 is out on Google Play.** The Mac app is coming soon and will be
 > published here under [Releases](https://github.com/Neerajreddyapi/Pingdrop/releases) —
 > click **Watch → Custom → Releases** at the top of this page to get notified.
+
+## What's new in 1.3
+
+- **PingDrop Pro** — reply from your Mac, notification rules and quiet hours, calendar
+  reminders, clipboard images, custom battery alerts, and choose where files are saved.
+  [See all Pro features](#pingdrop-pro).
+- Stays connected more reliably and reconnects faster.
+- Clipboard history, and update checks for the phone and Mac apps.
+- New Home, Sync and Settings tabs.
 
 ---
 
@@ -82,10 +91,7 @@ PingDrop is free. The Android app shows one small banner ad, which a one-time
 
 ## PingDrop Pro
 
-> [!NOTE]
-> PingDrop Pro's new features arrive with **PingDrop 1.3**.
-
-One purchase in the Android app — no subscription — unlocks Pro on your phone **and**
+Available now in PingDrop 1.3. One purchase in the Android app — no subscription — unlocks Pro on your phone **and**
 your Mac.
 
 | | |
