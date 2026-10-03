@@ -18,8 +18,10 @@ Notifications, clipboard and files — over your own Wi-Fi. No account. No cloud
 <a href="https://play.google.com/store/apps/details?id=com.app.pingdrop"><img src="https://img.shields.io/badge/Google_Play-Get_it_on_Android-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Get it on Google Play" height="40"></a>
 &nbsp;
 <img src="https://img.shields.io/badge/macOS-Coming_soon-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Mac app coming soon" height="40">
+&nbsp;
+<a href="https://getpingdrop.vercel.app"><img src="https://img.shields.io/badge/Website-getpingdrop.vercel.app-6266F1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="PingDrop website" height="40"></a>
 
-[Download](#download) · [PingDrop Pro](#pingdrop-pro) · [Getting started](#getting-started) · [Privacy](#privacy) · [Troubleshooting](#troubleshooting) · [Report a bug](https://github.com/Neerajreddyapi/Pingdrop/issues)
+[Website](https://getpingdrop.vercel.app) · [Download](#download) · [PingDrop Pro](#pingdrop-pro) · [Getting started](#getting-started) · [Privacy](#privacy) · [Troubleshooting](#troubleshooting) · [Report a bug](https://github.com/Neerajreddyapi/Pingdrop/issues)
 
 <br>
 
